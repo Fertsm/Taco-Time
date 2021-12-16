@@ -5,7 +5,7 @@
         <div>
           <div >
             <div class="my-2">
-              <h2 class="text-h4 font-weight-bold">Iniciar Sesión</h2>
+              <h2 class="text-h4 font-weight-bold">Registrate con nosotros</h2>
             </div>
 
             <v-row>
@@ -26,10 +26,41 @@
                       hover
                     >
                            <div >
-      <h3 class="text-h5 font-weight-medium pb-4">Inicia sesión para poder realizar tú pedido</h3>
+      <h3 class="text-h5 font-weight-medium pb-4">Registrate para poder realizar tú pedido</h3>
 
       <v-divider></v-divider>
-
+  <v-text-field
+        label="Nombre Completo"
+        solo
+        type="text"
+        outlined
+        flat
+        class="pt-4"
+      ></v-text-field>
+      <v-text-field
+        label="Edad"
+        solo
+        type="number"
+        outlined
+        flat
+        class="pt-4"
+      ></v-text-field>
+      <v-text-field
+        label="Telefono"
+        solo
+        type="number"
+        outlined
+        flat
+        class="pt-4"
+      ></v-text-field>
+      <v-text-field
+        label="Direccion"
+        solo
+        type="texto"
+        outlined
+        flat
+        class="pt-4"
+      ></v-text-field>
       <v-text-field
         label="E-mail"
         solo
@@ -46,7 +77,7 @@
         flat
         class="pt-4"
       ></v-text-field>
-      <v-btn color="accent" block large>Iniciar Sesión</v-btn>
+      <v-btn color="accent" block large>Registrarse</v-btn>
     </div>
                     </v-card>
                   </div>
@@ -63,17 +94,6 @@
         </div>
       </v-col>
     </v-row>
-<v-divider class="my-4"></v-divider>
-    <div class="py-4">
-                  <v-alert
-                    class="font-italic text-h6 text-center"
-                    border="left"
-                    colored-border
-                    color="accent"
-                  >
-                    Un taco al día es la llave de la alegría.
-                  </v-alert>
-                </div>
   </div>
 </template>
 

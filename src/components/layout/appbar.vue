@@ -59,8 +59,8 @@
               class="font-weight-bold text-h5 primary--text"
               @click="$router.push('/')"
             >
-              <v-icon large color="primary">mdi-feather</v-icon>Hero
-              <span class="accent--text">UI</span>
+              <v-icon large color="primary"></v-icon>Taco
+              <span class="accent--text">Time</span>
             </v-toolbar-title>
           </v-col>
 
@@ -102,33 +102,35 @@
 export default {
   data: () => ({
     drawer: null,
-    btnItems: [
-      {
-        text: "Free Download",
-        href: "https://github.com/AGDholo/giraffe",
-        target: "_black",
-        color: "primary",
-        icon: "mdi-download",
-      },
-    ],
     barItems: [
       {
         title: "Home",
         to: "/",
       },
       {
-        title: "Category",
+        title: "Activos",
         to: "/category",
       },
       {
-        title: "Detail",
+        title: "Pedidos",
         to: "/detail",
       },
       {
-        title: "Authors",
+        title: "Login",
         to: "/authors",
       },
+      {
+        title: "Registro",
+        to: "/registro",
+      },
+     
     ],
   }),
 };
 </script>
+<style scoped>
+  .col {
+    width: 450px;
+    max-width: 450px;
+  }
+</style>
