@@ -6,8 +6,8 @@
           <div>
             <v-card flat color="transparent">
               <v-img
-                src="https://www.ciudadypoder.mx/wp-content/uploads/2020/04/tacos-pastor-platillos-tradicionales-mexico.jpg"
-                :aspect-ratio="16 / 9"
+                src="https://www.telemundo.com/sites/nbcutelemundo/files/images/promo/article/2017/10/04/plato-con-tacos.jpg"
+                :aspect-ratio="16 / 6"
                 gradient="to top, rgba(25,32,72,.4), rgba(25,32,72,.0)"
                 style="border-radius: 16px"
               ></v-img>

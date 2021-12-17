@@ -3,7 +3,7 @@
     <div>
       <v-card to="detail">
         <v-img
-          src="https://www.dondeir.com/wp-content/uploads/2019/11/portada-4.jpg"
+          src="https://surveymonkey-assets.s3.amazonaws.com/smtheme/8166121/bd3be0d7-faa7-4005-9303-436bdf9905cf.jpg"
           gradient="to top, rgba(25,32,72,.7), rgba(25,32,72,.0)"
           :aspect-ratio="16 / 9"
           height="500px"
